@@ -151,3 +151,4 @@ verifyOTP = (options, callback) ->
 module.exports =
 	parseOTP: parseOTP
 	verifyOTP: verifyOTP
+  modhexDecode: modhexDecode
