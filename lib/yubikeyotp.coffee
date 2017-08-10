@@ -122,10 +122,10 @@ verifyOTP = (options, callback) ->
 			result[k] = v
 
 		# response has to have OTP
-		return callback 'No OTP in result' unless 'otp' of result
+#		return callback 'No OTP in result' unless 'otp' of result
 
 		# ... and it has to match the original
-		return callback 'OTP mismatch' unless result.otp is options.otp
+#		return callback 'OTP mismatch' unless result.otp is options.otp
 
 		# verify signature if requested
 		if 'key' of options
