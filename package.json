@@ -1,6 +1,6 @@
 {
 	"name": "akx-yubikeyotp",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "Low-level Yubikey OTP decryption / verification library for node.js",
 	"main": "./lib/yubikeyotp.js",
 
